@@ -4,7 +4,7 @@ echo " "
 echo "-----------------------------------------------------------"
 echo "DPI Analysis Tool version 2.0.1"
 echo ""
-echo "STEP 2: lunching the scripts"
+echo "STEP 2: launching the scripts"
 echo " "
 
 DIR_HOME=.
