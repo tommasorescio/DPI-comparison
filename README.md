@@ -12,12 +12,12 @@ The goal of this tool is automatically perform a comparison among the following 
 
 ##  How to use?
 The code has been tested on Ubuntu 18.04.5 LTS. This project has been developed with Bash and Python 3.8.
-Lunch all the scripts inside the folder.
+Launch all the scripts inside the folder.
 
-1. Lunch `'create_environment.sh'`. This script is in charge of creating all the required directories and the pre-processing files.
+1. Launch `'create_environment.sh'`. This script is in charge of creating all the required directories and the pre-processing files.
 2. Put the original traces you want to test in `'./traces/malware_macrotrace'`, `'./traces/media_games_macrotrace'`, `'./traces/IoT_macrotrace'`and `'./traces/user_traffic_macrotrace'`. You can download the original traces at this link https://smartdata.polito.it/dpi-in-practice/.
-3. Lunch `'launch_scripts.sh'`. This script is in charge of pre-processing the traces (creating for each trace, 25 filtered traces with an increasing number of packets per flow) and then it calls the four libraries.
-4. Lunch the Python script`'script_evaluation.sh'`. This script is in charge of doing all the statistics and printing the graphs.
+3. Launch `'launch_scripts.sh'`. This script is in charge of pre-processing the traces (creating for each trace, 25 filtered traces with an increasing number of packets per flow) and then it calls the four libraries.
+4. Launch the Python script`'script_evaluation.sh'`. This script is in charge of doing all the statistics and printing the graphs.
 
 
  
